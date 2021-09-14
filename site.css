@@ -1,0 +1,78 @@
+header {
+    background-color:rgba(255, 255, 255, 0.678);
+    height: 50px;
+    padding: 10px;
+    border-radius: 1em;
+    border-style:hidden;
+    border: solid thick #8b9dc3;
+}
+body {
+    margin: 50px;;
+    background-color:#3b5998;
+    
+
+}
+ul > li {
+    display: inline;
+    background-color:#e2e0e000;
+    border-radius: 7px;
+    padding: 5px 10px
+    
+}
+ul li a{
+    
+    color: #333;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #ffffff;
+    border-bottom:3px solid #EA0000;
+    
+}
+
+.Inicio {
+    color: rgb(255, 255, 255);
+    border-block-end-style:groove;
+    padding:2% ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.aula_bonus { 
+    text-transform: uppercase;
+}
+.servicos_card { display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 10px;
+    min-width: 310px;
+    max-width: 470px;
+    padding: 40px 48px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: rgb(213 213 213 / 56%) 0px 15px 30px;
+}
+img {
+    width:50%;
+}
+
+button {
+  top: 0;
+  left: 0;
+  transition: all .15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color:rgb(255, 255, 255);
+  text-transform: uppercase;
+  color:(9, 25, 253);
+  font-family: arial;
+  letter-spacing: 1px;
+  
+  box-shadow: -6px 6px 0 rgb(253, 196, 9);
+  text-decoration: none;
+  
+}
+
